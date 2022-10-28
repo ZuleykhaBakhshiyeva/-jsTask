@@ -4,7 +4,7 @@ const a=+prompt('please enter the value a');
 const b=+prompt('please enter the value b');
 const c=+prompt('please enter the value c');
 
-if(a$$b$$c=0){
+if(a||b||c==0){
     console.log('this is wrong');
 }else{
     console.log(a);
